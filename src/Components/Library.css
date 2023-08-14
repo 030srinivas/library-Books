@@ -1,0 +1,140 @@
+
+/* Add this CSS code to your Library.css file */
+
+  
+  /* ... (your existing styles) */
+  *{
+    background-color: black;
+    color: white;
+  }
+  nav{
+    background-color: #ccc;
+    box-shadow:0 4px 6px rgba(0, 0, 0, 0.5) ;
+  }
+  
+  .action-buttons {
+    display: flex;
+    gap: 10px;
+    
+ /* Add a gap between the buttons */
+  }
+  
+  .input-container input[type="text"],
+  .input-container button {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    
+
+  }
+  
+  .book-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+ 
+    
+  }
+  
+  .book-item {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    background-color: #f7f7f7;
+    box-shadow: 0 0 10px wheat
+  }
+  
+  .book-details {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .book-cover {
+    max-width: 100px;
+    height: auto;
+    object-fit: contain;
+  }
+  
+   
+ 
+  
+  
+  
+  .input-container input[type="text"],
+  .input-container button {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    border: 1px solid #f8f2f2;
+    border-radius: 4px;
+    justify-content: center;
+    
+  }
+  
+  /* Add spacing between filters */
+  .input-container > * {
+    margin-right: 10px;
+    
+  }
+  
+ 
+   
+  .book-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    
+  }
+  
+  .book-item {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 1px;
+    background-color: #f7f7f7;
+  }
+  
+  .book-details {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .book-cover {
+    max-width: 100px;
+    height: auto;
+    object-fit: contain;
+    
+  }
+  
+  .library-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Add space between filter container and book list */
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    
+    
+  }
+  
+  .input-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px;  /* Add space between filter inputs */
+    
+  }
+  
+  /* Rest of your existing CSS */
+  
